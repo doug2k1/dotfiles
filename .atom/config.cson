@@ -1,0 +1,99 @@
+"*":
+  "exception-reporting":
+    userId: "2e21fff3-791a-6b96-5fc5-223f0b6b3366"
+  welcome:
+    showOnStartup: false
+  core:
+    audioBeep: false
+    ignoredNames: [
+      ".sass-cache"
+      ".settings"
+      "node_modules"
+      ".DS_Store"
+    ]
+    disabledPackages: [
+      "archive-view"
+      "autoflow"
+      "background-tips"
+      "git-diff"
+      "image-view"
+      "language-c"
+      "language-clojure"
+      "language-coffee-script"
+      "language-csharp"
+      "language-gfm"
+      "language-git"
+      "language-go"
+      "language-java"
+      "language-less"
+      "language-make"
+      "language-objective-c"
+      "language-perl"
+      "language-php"
+      "language-python"
+      "language-ruby-on-rails"
+      "language-sql"
+      "language-toml"
+      "link"
+      "markdown-preview"
+      "metrics"
+      "open-on-github"
+      "spell-check"
+      "welcome"
+      "line-ending-selector"
+    ]
+  editor:
+    invisibles: {}
+    fontSize: 13
+    lineHeight: 1.3
+    preferredLineLength: 120
+    tabLength: 4
+    tabType: "soft"
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  "find-and-replace": {}
+  jshint:
+    onlyConfig: true
+  "linter-jscs":
+    onlyConfig: true
+    displayAs: "warning"
+    preset: "crockford"
+  "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
+  linter:
+    showErrorInline: false
+  build: {}
+  minimap:
+    plugins:
+      "highlight-selected": true
+  "highlight-selected": {}
+  tabs:
+    tabScrolling: true
+    usePreviewTabs: true
+  "one-dark-ui":
+    fontSize: 12
+  emmet: {}
+  "line-ending-converter":
+    normalizeEolOnSave: "Unix (LF)"
+  "autocomplete-plus": {}
+  "fuzzy-finder": {}
+  "status-bar": {}
+  "atom-beautify":
+    analytics: false
+    beautifyEntireFileOnSave: false
+  "language-babel":
+    allowLocalOverride: true
+    transpileOnSave: true
+    createTranspiledCode: true
+    disableWhenNoBabelrcFileInPath: false
+    babelMapsAddUrl: false
+".babel.regexp.source":
+  editor:
+    preferredLineLength: 120
+".js.jsx.source":
+  editor:
+    preferredLineLength: 120
+".handlebars.html.text":
+  editor:
+    preferredLineLength: 120
