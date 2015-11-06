@@ -24,12 +24,14 @@
   'Backbone View':
     'prefix': 'bbview'
     'body': """
-      var MIBPortal = MIBPortal || {};
+      var ${1:Namespace} = ${1:Namespace} || {};
 
       (function () {
       \t'use strict';
 
-      \tMIBPortal.IndicatorTrendView = Backbone.View.extend({});
+      \${1:Namespace}.${2:ViewName} = ${3:Backbone.View}.extend({
+      \t${4}
+      });
       }());
 
     """
